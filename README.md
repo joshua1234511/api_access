@@ -8,6 +8,10 @@ Add API Access repository to your project composer.
 
 ```composer config repositories.api_access git git@github.com:joshua1234511/api_access.git```
 
+Let Composer know of the latest pacakages.
+
+```composer install```
+
 Require API Access module.
 
 ```composer require joshua1234511/api_access```
