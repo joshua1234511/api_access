@@ -1,0 +1,6 @@
+name: 'API Access'
+type: module
+description: "Custom module to provide json data with api key validation."
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Custom'

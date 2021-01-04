@@ -1,0 +1,13 @@
+api_access.show_content_as_json:
+  path: '/page_json/{api_key}/{node}'
+  defaults:
+    _controller: 'Drupal\api_access\Controller\ApiAccessController::outputData'
+    _title: 'JSON Output'
+  options:
+    parameters:
+      api_key:
+        type: string
+      nid:
+        type: entity:node
+  requirements:
+    _permission: 'access content'

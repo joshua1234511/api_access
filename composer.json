@@ -1,0 +1,5 @@
+{
+  "name": "joshua1234511/dd_datalayer_tools",
+  "type": "drupal-module",
+  "description": "Custom module to provide json data with api key validation."
+}
